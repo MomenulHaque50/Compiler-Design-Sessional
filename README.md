@@ -39,11 +39,25 @@ It helps in building compilers and interpreters easily and systematically.
 ![Compile Flex Program](Images/Compile%20Yacc%20Program.PNG)
 
 ### Steps to run a Bison program:
-Write the bison program and save it with .y extension (e.g., example.y).
+1. Write the bison program and save it with .y extension (e.g., example.y).
 
-Open the terminal and navigate to the directory containing your .y file.
+2. Open the terminal and navigate to the directory containing your .y file.
 
-Run the command:
+3. Run the command:
+
+   cmd1: flex example.l
+
+   cmd2: bison -dy example.y
+
+4. Then compile the generated y.tab.c and link it with the lexer file (if any):
+
+   cmd3: gcc lex.yy.c y.tab.c -o a
+
+   cmd4: ./a.exe
+   
+   or
+
+   cmd4: ./a.out (mac or linux)
 
 
    
