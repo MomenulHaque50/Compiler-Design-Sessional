@@ -5,11 +5,11 @@ Flex is a tool for generating scanners: programs that recognize lexical patterns
 It reads the given input files for a description of a scanner to generate.  
 The resulting program reads the input, matches it against the given patterns, and executes the corresponding actions.
 
-![Lex Pattern](Images/Lex%20Pattern.png)
+![Lex Pattern](Images/Lex%20Pattern.PNG)
 
 ## How to Compile Flex Program:
 
-![Compile Flex Program](Images/Compile%20Flex%20Program/png)
+![Compile Flex Program](Images/Compile%20Flex%20Program/PNG)
 
 ### Steps to run a Flex program:
 1. Write the flex program and save it with `.l` extension (e.g., `example.l`).
